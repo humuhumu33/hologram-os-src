@@ -58,7 +58,7 @@ jobs:
       # and sidesteps the GITHUB_TOKEN "no re-trigger" rule a separate commit-then-deploy would hit.
       - name: Regenerate changelog (git-cliff)
         continue-on-error: true   # if git-cliff hiccups, fall back to the committed CHANGELOG.md — never break the site deploy
-        uses: orhun/git-cliff-action@f50e11560dce63f7c33227798f90b924471a88b5 # v4
+        uses: orhun/git-cliff-action@3d96a18cc4ec17e9dc69ddcc424ccafaf1f78ce2 # v4
         with:
           config: .github/cliff.toml
           args: --verbose
