@@ -43,7 +43,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "express": "^5.2.1",
-    "n3": "^2.1.0"
+    "n3": "^2.7.4"
   },
   "devDependencies": {
     "playwright": "^1.61.1"
